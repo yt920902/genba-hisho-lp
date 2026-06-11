@@ -1,15 +1,16 @@
 import { SectionHeading } from "@/components/section-heading";
 
 const roadmap = [
-  "見積書作成",
+  "見積書作成AI",
   "請求書作成",
   "契約書作成",
-  "現場書類管理",
+  "顧客管理",
+  "現場写真管理",
 ];
 
 export function RoadmapSection() {
   return (
-    <section className="bg-white px-5 py-16 sm:px-6 lg:px-8">
+    <section id="development" className="bg-white px-5 py-16 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-4xl">
         <SectionHeading title="今後追加予定" />
         <div className="mt-10">
