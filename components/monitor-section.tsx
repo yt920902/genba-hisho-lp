@@ -14,7 +14,7 @@ export function MonitorSection() {
           現在、建設業・設備業・リフォーム業の事業者様向けに無料相談を実施しています。
         </p>
         <div className="mt-8">
-          <CtaButton className="w-full sm:w-auto" variant="line" />
+          <CtaButton className="w-full sm:w-auto" />
         </div>
       </div>
     </section>

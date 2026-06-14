@@ -26,6 +26,24 @@ export function PainSection() {
             </div>
           ))}
         </div>
+        <div className="mt-10 text-center">
+          <a
+            href="#service"
+            className="inline-flex items-center gap-2 rounded-md border-2 border-brand-navy px-6 py-3 text-base font-bold text-brand-navy transition-colors hover:bg-brand-navy hover:text-white"
+          >
+            現場秘書のサービスを見る
+            <svg
+              className="h-4 w-4"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+            >
+              <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+            </svg>
+          </a>
+        </div>
       </div>
     </section>
   );

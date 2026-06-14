@@ -1,4 +1,5 @@
 import { Footer } from "@/components/footer";
+import { Header } from "@/components/header";
 import { Hero } from "@/components/hero";
 import { MonitorSection } from "@/components/monitor-section";
 import { PainSection } from "@/components/pain-section";
@@ -8,14 +9,17 @@ import { ServiceSection } from "@/components/service-section";
 
 export default function Home() {
   return (
-    <main>
-      <Hero />
-      <PainSection />
-      <ServiceSection />
-      <RoadmapSection />
-      <PricingSection />
-      <MonitorSection />
-      <Footer />
-    </main>
+    <>
+      <Header />
+      <main>
+        <Hero />
+        <PainSection />
+        <ServiceSection />
+        <RoadmapSection />
+        <PricingSection />
+        <MonitorSection />
+        <Footer />
+      </main>
+    </>
   );
 }

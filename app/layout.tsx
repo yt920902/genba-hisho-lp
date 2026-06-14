@@ -3,6 +3,7 @@ import type { ReactNode } from "react";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://genba-hisho-lp.vercel.app"),
   title: {
     default: "現場秘書 | 建設業向けAI事務サポート",
     template: "%s | 現場秘書",
@@ -22,10 +23,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "現場秘書 | 建設業向けAI事務サポート",
     description:
-      "見積・請求・契約まわりの事務作業を、もっとラクに。LINEで無料相談を受付中。",
+      "建設業の事務作業を、AIと人のサポートで軽くする。見積書・請求書・契約書・顧客管理の悩みをLINEで無料相談。",
     siteName: "現場秘書",
     locale: "ja_JP",
     type: "website",
+    url: "https://genba-hisho-lp.vercel.app",
   },
   twitter: {
     card: "summary_large_image",

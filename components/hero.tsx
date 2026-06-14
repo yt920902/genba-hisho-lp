@@ -3,26 +3,40 @@ import { CtaButton } from "@/components/cta-button";
 export function Hero() {
   return (
     <section className="bg-brand-navy text-white">
-      <div className="mx-auto grid min-h-[92svh] max-w-6xl items-center gap-10 px-5 py-12 sm:px-6 lg:grid-cols-[1fr_0.86fr] lg:px-8 lg:py-16">
+      <div className="mx-auto grid min-h-[88svh] max-w-6xl items-center gap-10 px-5 py-14 sm:px-6 lg:grid-cols-[1fr_0.86fr] lg:px-8 lg:py-20">
         <div>
-          <p className="inline-flex rounded-full border border-white/20 bg-white/10 px-4 py-2 text-sm font-bold text-orange-100">
+          <p className="inline-flex rounded-full border border-white/20 bg-white/10 px-4 py-1.5 text-sm font-bold text-orange-100">
             建設業向けAI事務サポート
           </p>
-          <h1 className="mt-6 text-5xl font-black leading-tight sm:text-6xl">
+          <p className="mt-4 text-base font-black tracking-widest text-brand-orange">
             現場秘書
-          </h1>
-          <p className="mt-6 max-w-2xl text-3xl font-bold leading-tight text-white sm:text-4xl">
-            見積・請求・契約まわりの事務作業を、もっとラクに。
           </p>
-          <p className="mt-5 max-w-xl text-base leading-8 text-slate-200 sm:text-lg">
-            建設業・設備業・リフォーム業向けのAI事務サポートサービス
+          <h1 className="mt-3 text-3xl font-black leading-tight text-white sm:text-4xl lg:text-5xl">
+            建設業の事務作業を、<br className="hidden sm:block" />
+            AIと人のサポートで軽くする。
+          </h1>
+          <p className="mt-5 max-w-xl text-base leading-8 text-slate-300 sm:text-lg">
+            見積書・請求書・契約書・顧客管理の悩みを、まずはLINEで無料相談。
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
             <CtaButton className="w-full sm:w-auto" />
-            <p className="text-sm font-medium text-slate-300">
-              相談はLINE公式アカウントから受付中
-            </p>
           </div>
+          <a
+            href="#service"
+            className="mt-8 inline-flex items-center gap-1.5 text-sm font-bold text-slate-400 transition-colors hover:text-white"
+          >
+            サービス内容を見る
+            <svg
+              className="h-4 w-4"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+            >
+              <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+            </svg>
+          </a>
         </div>
 
         <div className="rounded-lg bg-white p-5 text-brand-navy shadow-soft">
