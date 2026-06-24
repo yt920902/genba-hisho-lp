@@ -6,6 +6,7 @@ import { PainSection } from "@/components/pain-section";
 import { PricingSection } from "@/components/pricing-section";
 import { RoadmapSection } from "@/components/roadmap-section";
 import { ServiceSection } from "@/components/service-section";
+import { WorkflowSection } from "@/components/workflow-section";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <main>
         <Hero />
         <PainSection />
+        <WorkflowSection />
         <ServiceSection />
         <RoadmapSection />
         <PricingSection />

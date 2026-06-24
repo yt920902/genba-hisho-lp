@@ -5,8 +5,9 @@ import { useState } from "react";
 const LINE_URL = "https://lin.ee/RlNqL2M";
 
 const navLinks = [
-  { label: "サービス内容", href: "#service" },
-  { label: "開発状況", href: "#development" },
+  { label: "運用の流れ", href: "#workflow" },
+  { label: "できること", href: "#service" },
+  { label: "料金", href: "#pricing" },
 ] as const;
 
 export function Header() {
@@ -53,7 +54,7 @@ export function Header() {
             rel="noopener noreferrer"
             className="inline-flex items-center rounded-md bg-brand-orange px-4 py-2 text-sm font-bold text-white transition-colors hover:bg-orange-600"
           >
-            無料相談
+            LINE相談
           </a>
         </nav>
 
@@ -111,7 +112,7 @@ export function Header() {
               rel="noopener noreferrer"
               className="mt-1 inline-flex items-center justify-center rounded-md bg-brand-orange px-4 py-3 text-base font-bold text-white hover:bg-orange-600"
             >
-              LINEで無料相談
+              LINEで相談する
             </a>
           </nav>
         </div>

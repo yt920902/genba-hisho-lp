@@ -19,7 +19,7 @@ export function CtaButton({ className = "", variant = "primary" }: CtaButtonProp
       className={`inline-flex min-h-12 items-center justify-center rounded-md px-6 py-3 text-center text-base font-bold shadow-soft transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 ${colorClass} ${className}`}
       aria-label="LINE公式アカウントで無料相談する"
     >
-      LINEで無料相談する
+      LINEで相談をはじめる
     </a>
   );
 }
